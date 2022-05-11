@@ -11,5 +11,5 @@ export class CarService {
         this.insurer = this.insurerService.getCurrentInsurer();
     }
 }
-console.log(serviceType.car)
+
 container.resolveProvider(serviceType.car);

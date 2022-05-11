@@ -7,7 +7,7 @@ export class IoCContainer {
     private providersStore: { [key: string]: any } = {};
 
     resolveProvider(key: string) {
-        console.log('this.providersStore', this.providersStore)
+        
         const resolvedProvider = this.providersStore[key];
         if (resolvedProvider) {
             return resolvedProvider;
